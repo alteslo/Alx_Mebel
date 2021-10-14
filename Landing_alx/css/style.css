@@ -30,7 +30,7 @@ a.menu_item {
       color: azure;
   }
 
-  .features_wraper {
-    /*background-image: url(/Landing_alx/img/wood-texture-014.jpg);
-    background-size: cover; */
+  .wp_bg {
+    background-image: url(/Landing_alx/img/wood_white.jpg);
+    background-size: cover;
   }
