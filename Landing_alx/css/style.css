@@ -42,6 +42,7 @@ a.menu_item:hover:before {
   
 .whitext {
   color: azure;
+  white-space: nowrap;
 }
 
 .wp_bg {
@@ -51,6 +52,12 @@ a.menu_item:hover:before {
 
 .jumbotron {
   height: 591px;
+}
+
+
+.info_text_wraper {
+  display: flex;
+  justify-content: center;
 }
 
 .img_carusel{
