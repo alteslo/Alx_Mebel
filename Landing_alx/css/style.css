@@ -1,3 +1,19 @@
+.wraper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*--------------HEADER------------------------------------*/
+
+.header_wraper {
+  background-color: white;
+}
+
+.dropdown-divider {
+  margin: 0px;
+  padding: 0px;
+}
+
 .wood_bg {
   background-image: url(/Landing_alx/img/wood-texture-02.jpg);
   background-size: cover;
@@ -26,7 +42,6 @@ a.menu_item:hover:before {
   
 .whitext {
   color: azure;
-  white-space: nowrap;
 }
 
 .wp_bg {
@@ -38,6 +53,7 @@ a.menu_item:hover:before {
   height: 591px;
 }
 
-.features_wraper{
-  margin-top: 100px;
+.img_carusel{
+  max-width: 490px;
+  max-height: 490px;
 }
