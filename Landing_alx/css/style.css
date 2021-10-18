@@ -1,66 +1,65 @@
 .wraper {
-  width: 95%;
-  margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
 }
 
 /*--------------HEADER------------------------------------*/
 
 .header_wraper {
-  background-color: white;
+    background-color: white;
 }
 
 .dropdown-divider {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .wood_bg {
-  background-image: url(/Landing_alx/img/wood-texture-02.jpg);
-  background-size: cover;
+    background-image: url(/Landing_alx/img/wood-texture-02.jpg);
+    background-size: cover;
 }
 
 a.menu_item {
-  position: relative;
-  color: black;
-  text-decoration: none;
+    position: relative;
+    color: black;
+    text-decoration: none;
 }
   
 a.menu_item::before {
-  content: '';
-  position: absolute;
-  left: 0; 
-  bottom: -5px;
-  width: 0;
-  height: 1.5px;
-  background-color: black;;
-  transition: all 0.35s ease-out;
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -5px;
+    width: 0;
+    height: 1.5px;
+    background-color: black;;
+    transition: all 0.35s ease-out;
 }
   
 a.menu_item:hover:before {
-  width: 100%;
+    width: 100%;
 }
   
 .whitext {
-  color: azure;
-  white-space: nowrap;
+    color: azure;
+    white-space: nowrap;
 }
 
 .wp_bg {
-  background-image: url(/Landing_alx/img/wood_white.jpg);
-  background-size: cover;
+    background-image: url(/Landing_alx/img/wood_white.jpg);
+    background-size: cover;
 }
 
 .jumbotron {
-  height: 591px;
+    height: 591px;
 }
 
-
 .info_text_wraper {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .img_carusel{
-  max-width: 490px;
-  max-height: 490px;
+    max-width: 490px;
+    max-height: 490px;
 }
